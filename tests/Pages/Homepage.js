@@ -11,7 +11,7 @@ export class Homepage{
     // }
     async verifyLoggedInSuccessfullyTitle() {
     await expect(this.successTitle).toBeVisible();
-    await expect(this.successTitle).toHaveText('Logged In Successfully');
+    await expect(this.successTitle).toHaveText('Logged     ghf  In Successfully');
  
     }
 }
